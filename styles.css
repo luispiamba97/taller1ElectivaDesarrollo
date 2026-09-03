@@ -1,0 +1,87 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f9; /* background-color */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Tarjeta contenedora */
+.card {
+    background-color: #ffffff; /* background-color */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; /* text-align */
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Punto 2: Estilos para el título */
+h1 {
+    color: #2c3e50; /* color */
+    font-size: 24px; /* font-size */
+    margin-bottom: 15px;
+}
+
+/* Imagen de perfil */
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+/* Estilos para el párrafo */
+p {
+    color: #555555; /* color */
+    font-size: 16px; /* font-size */
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el enlace */
+.github-link {
+    display: inline-block;
+    color: #0066cc; /* color */
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.github-link:hover {
+    text-decoration: underline;
+}
+
+.instagram-link {
+    display: inline-block;
+    color: #0066cc; /* color */
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.instagram-link:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para el botón del punto 3 */
+button {
+    background-color: #27ae60; /* background-color */
+    color: #ffffff; /* color */
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px; /* font-size */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #219150;
+}
